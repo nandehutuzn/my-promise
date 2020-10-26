@@ -152,7 +152,7 @@ class MyPromise {
       function returnFunc(value) {
         if(!isReturn) {
           isReturn = true
-          resolve(`first ${value}`)
+          resolve(value)
         }
       }
 
